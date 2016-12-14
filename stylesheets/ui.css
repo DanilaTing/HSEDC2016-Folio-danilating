@@ -1,15 +1,9 @@
-.btn {
-  display: block;
-  align: 0 auto;
-}
-
 .cyan {
   color: black;
   background-color: rgb(80, 227, 194);
   text-decoration: none;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
 }
-
 
 .large {
   width: 300px;
