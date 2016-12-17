@@ -56,15 +56,16 @@ body.landing .menubar div {
   width: 1440px;
   position: relative;
   height: 827px;
+  overflow: hidden;
 }
 
 .mainSection.left {
-  background-color: rgba(250, 255, 254, 1);
+  /*background-color: rgba(250, 255, 254, 1);*/
 }
 
 .mainSection.right,
 .mainSection.center {
-  background-color: rgba(126, 152, 152, 1);
+  /*background-color: rgba(126, 152, 152, 1);*/
 }
 
 .mainSection section h2 {
@@ -107,7 +108,7 @@ body.landing .menubar div {
 }
 
 .mainSection.center section {
-  top: 190px;
+  top: 110px;
   width: 100%;
   color: white;
 }
@@ -188,7 +189,7 @@ body.landing .menubar div {
   background-image: url(../images/pictures/screens-ok.png);
 }
 
-.btns {
+/*.btns {
   height: 81px;
   margin-top: 60px;
   display: -webkit-box;
@@ -204,6 +205,18 @@ body.landing .menubar div {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}*/
+
+.mainSection.center section nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  font-size: 0;
+}
+
+.mainSection.center section nav a {
+  margin: 10px 0;
 }
 
 @media screen and (max-width: 1460px) {
@@ -272,23 +285,12 @@ body.landing .menubar div {
     margin-left: 190px;
   }
 
-  .btns {
-    height: 60px;
-    margin-top: 42px;
-    margin-left: -10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+  .mainSection.center section nav {
+    margin-top: 35px;
+  }
+
+  .mainSection.center section nav a {
+    margin: 7px 0;
   }
 
   .mainSection.center footer {
@@ -377,9 +379,14 @@ body.landing .menubar div {
     left: 157px;
   }
 
-  .btns {
-    margin-top: 92px;
+  .mainSection.center section nav {
+    margin-top: 87px;
   }
+
+  .mainSection.center section nav a {
+    margin: 5px 0;
+  }
+
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
