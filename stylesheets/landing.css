@@ -60,7 +60,7 @@ body.landing .menubar div {
 }
 
 .mainSection.left {
-  /*background-color: rgba(250, 255, 254, 1);*/
+  background-color: rgba(250, 255, 254, 1);
 }
 
 .mainSection.right,
@@ -88,6 +88,7 @@ body.landing .menubar div {
 }
 
 .mainSection.left section {
+  color: rgba(0, 0, 0, 0.8);
   left: 160px;
 }
 
@@ -118,7 +119,7 @@ body.landing .menubar div {
   bottom: 0;
   right: 0;
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 140px;
 }
 
 .mainSection.center footer p {
@@ -208,10 +209,7 @@ body.landing .menubar div {
 }*/
 
 .mainSection.center section nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 70px;
+  margin-top: 50px;
   font-size: 0;
 }
 

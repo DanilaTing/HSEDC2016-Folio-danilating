@@ -6,6 +6,7 @@
 }*/
 
 .large {
+  display: inline-block;
   color: black;
   background-color: rgb(80, 227, 194);
   text-decoration: none;
@@ -20,6 +21,7 @@
 }
 
 .small {
+  display: block;
   color: white;
   font-size: 15px;
 }
